@@ -27,7 +27,7 @@ class PlaceController extends Controller
                 'address'=>$request->address,
             ]
             );
-            return view('place');
+            return redirect('/places');
     }
     
     public function show($id)
